@@ -1,0 +1,10 @@
+﻿  camera3D.cpp
+  Relogio.cpp
+C:\Users\henri\source\repos\Processamento_Grafico_2_Unisinos\Primitivas\ConsoleApplication1\ConsoleApplication1\Relogio.cpp(88,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  Gerando Código...
+Relogio.obj : error LNK2005: "void __cdecl checkCompileErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkCompileErrors@@YAXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) já definida no camera3D.obj
+Relogio.obj : error LNK2005: main já definida no camera3D.obj
+Relogio.obj : error LNK2005: "char const * const vertexShaderSource" (?vertexShaderSource@@3PEBDEB) já definida no camera3D.obj
+Relogio.obj : error LNK2005: "char const * const fragmentShaderSource" (?fragmentShaderSource@@3PEBDEB) já definida no camera3D.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library
+C:\Users\henri\source\repos\Processamento_Grafico_2_Unisinos\Primitivas\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1169: encontrados um ou mais símbolos múltiplos definidos
