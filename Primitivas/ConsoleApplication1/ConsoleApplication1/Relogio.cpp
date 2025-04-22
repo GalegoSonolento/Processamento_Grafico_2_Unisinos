@@ -82,7 +82,7 @@ int main() {
 
     // Círculo do relógio
     std::vector<GLfloat> circleVertices;
-    const int segments = 100;
+    const int segments = 10;
     float radius = 0.8f;
     for (int i = 0; i < segments; ++i) {
         float angle = 2.0f * M_PI * i / segments;
